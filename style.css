@@ -1,0 +1,279 @@
+@import url("reset.css");
+
+
+
+.downbar{
+	position:fixed;
+	width:1890px;
+	height:300px;
+	top:100px;
+	background:#DDDDDD;
+	display:none;
+}
+
+.wrapdownbar{
+	position:relative;
+	width:1100px;
+	height:300px;
+	margin:0 auto;
+}
+
+
+.downleft{
+	position:relative;
+	float:left;
+	width:200px;
+	height:300px;
+	
+	border-right:1px #AAAAAA solid;
+}
+
+.downleft ul{
+	padding:50px 30px 0px 0px;
+}
+
+.downleft a{
+	text-decoration:none;
+	color:rgb(163,198,106);
+}
+
+
+.downleft ul li{
+	padding-bottom:20px;
+	text-align:right;
+
+}
+
+.downright{
+	position:relative;
+	float:left;
+	width:800px;
+	height:300px;
+}
+
+.downright a{
+	text-decoration: none;
+	color:rgb(102,102,102);
+}
+
+.downright ul{
+	padding: 20px 0 0 15px;
+}
+.downright ul li{
+	float:left;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+.downright ul li h5{
+	text-align:center;
+	padding-top:8px;
+}
+
+.wrap{
+	position:static;
+	width:1890px;
+	margin:0 auto;
+	background: white;
+}
+
+.header{
+	position:relative;
+	margin:0 auto;
+	width:1300px;
+	height:100px;
+}
+
+.header > a{
+	position:absolute;
+	bottom:35px;
+
+}
+
+
+.bar {
+	position:absolute;
+	top:18px;
+	right:0;
+}
+
+.bar ul{
+	list-style:disc ;
+	color:rgb(184,217,113);
+}
+
+.bar li {
+	float:left;
+	margin-left:20px;
+	margin-right:10px;
+	
+}
+
+.bar li:first-child{
+	list-style-type:none;
+}
+
+.bar a{
+	text-decoration:none;
+	font-size:9px;
+	font-weight:800;
+	color:rgb(184,217,113);
+}
+
+.bar a:hover{
+	color:rgb(163,198,106);
+}
+
+.search{
+	position:absolute;
+	right:0;
+	top:38px;
+	border-bottom: solid 2px rgb(203,203,203);
+	padding:2px;
+}
+
+.search img{
+	width:26px;
+}
+
+.search #area1{
+	position:relative;
+	bottom:6px;
+	left:2px;
+	width:210px;
+	outline:none;/* 點及欄位 不顯示邊框*/
+	border: none;/* 不顯示外框*/
+}
+
+.menu{
+	position:absolute;
+	left:75px;
+}
+
+
+.menu button{
+	width:150px;
+	height:50px;
+}
+
+.menu li{
+	float:left;
+	padding-left:50px;
+	padding-right:40px;
+	line-height:100px;
+}
+
+
+
+.menu li:nth-child(2)::after{
+	content:url(image/down.png);
+}
+
+.menu li:nth-child(2):hover::after{
+	content:url(image/up.png);
+}
+
+
+.menu a{
+	text-decoration:none;
+	color:rgb(102,102,102);
+
+}
+
+.menu a:hover{
+	color:rgb(163,198,106);
+}
+
+
+
+.main{
+	width:1890px;
+	margin:0 auto;
+}
+
+.smallPic{
+	display:none;
+	/* display 不顯示 也不佔空間 block inline none*/
+	/* visibility 不顯示 但佔空間  visible hidden*/
+}
+
+
+
+.ban img:hover{
+	opacity:0.5;
+}
+
+
+.video{
+	position:relative;
+	height:600px;
+	background:	rgb(218,218,218);
+}
+.video h1, .buy h1{
+	position:relative;
+	font-size:32px ;
+	font-weight:900;
+	font-family:fantasy;
+	top:55px;
+	text-align:center;
+}
+
+.video table{
+	position:relative;
+	top:85px;
+	margin:0 auto;
+}
+
+
+.video a, .buy a{
+	text-decoration:none;
+}
+.video .btn2, .buy .btn3{
+	position:relative;
+	padding:10px 30px;
+	left:45%;
+	top:140px;
+	border:2px black solid;
+	
+	color:rgb(51,51,51);
+
+}
+
+.video .btn2:hover, .buy .btn3:hover{
+	background:rgb(51,51,51);
+	color:white;
+
+}
+
+.buy{
+	position:relative;
+	top:5px;
+	background:rgb(187,197,172);
+	height:530px;
+}
+
+
+
+.buy table{
+	position:relative;
+	width:105%;
+	line-height:45px;
+	top:50px;
+	text-align:center;
+	color:rgb(51,51,51);
+
+}
+
+
+.wrapButton{
+	position:relative;
+	padding:10px 30px;
+	border:1.5px black solid;	
+}
+
+
+.wrapButton:hover{
+	background:rgb(51,51,51);
+	color:white;
+}
+
